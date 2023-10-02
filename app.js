@@ -15,7 +15,7 @@ var app = express();
 // app.use(logger('dev'));
 app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: false }));
-app.use(express.static(__dirname + '/routes'));
+app.use(express.static(__dirname + '/public'));
 app.use(express.static(__dirname + '/views'));
 
 app.use('/', indexRouter);
@@ -33,7 +33,7 @@ app.use(function(err, req, res, next) {
 
   // render the error page
   res.status(err.status || 500);
-  res.render('error.html');
+  res.sendFile(__dirname + '/views/error.html');
 });
 
 module.exports = app;
