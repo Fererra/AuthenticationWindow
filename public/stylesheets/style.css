@@ -37,6 +37,7 @@ h1:first-child{
 }
 .sumbit{
     flex-grow: 1;
+    
 }
 .email:valid{
     border: solid 2.5px green;
