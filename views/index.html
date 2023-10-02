@@ -3,25 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/stylesheets/style.css">
     <title>Document</title>
 </head>
 <body>
     <div class="registre">
         <form method="post">
-            <h1>Registration</h1>
-            <label for="email">Email</label>
-            <input type="text" name="email" min="5" max="30" placeholder="Email"><br>
-
-            <label for="username">Name</label>
-            <input type="text" name="username" min="2" max="30" placeholder="Name"><br>
-
-            <label for="password">Password</label>
-            <input type="password" name="password" minlength="8" maxlength="30" placeholder="Password"><br>
-
-            <label for="confirmpassword">Confirm password</label>
-            <input type="password" name="confirmpassword" minlength="8" maxlength="30" placeholder="Confirm password"><br>
-            <input type="submit">
-
+            <h1 id="registre-logo">Registration</h1>
+            <div class="block-parents">
+            <label for="email"></label>
+            <input type="text" name="email" minlength="5" maxlength="100" placeholder="Email" class="email"><br>
+            <label for="username"></label>
+            <input type="text" name="username" minlength="2" maxlength="100" placeholder="Name" class="Name"><br>
+            <label for="password"></label>
+            <input type="password" name="password" minlength="8" maxlength="30" placeholder="Password" class="password"><br>
+            <label for="confirmpassword"></label>
+            <input type="password" name="confirmpassword" minlength="8" maxlength="30" placeholder="Confirm password" class="confit"><br>
+            <input type="submit" class="sumbit">
+            </div>
         </form>
     </div>
 </body>

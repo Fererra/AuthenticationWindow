@@ -1,0 +1,64 @@
+body{
+    color: aqua;
+}
+h1:first-child{
+    color: black;
+}
+.registre {
+    width: 400px;
+    height: 300px;
+    margin: 0;
+    background: #dcdcdc;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 4px black;
+}
+.block-parents{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+}
+.email{
+    flex-grow: 1;
+}
+.Name{
+    flex-grow: 1;
+
+}
+.password{
+    flex-grow: 1;
+}
+.sumbit{
+    flex-grow: 1;
+}
+.email:valid{
+    border: solid 2.5px green;
+}
+.email:invalid{
+    border: solid 2.5px red;
+}
+.Name:valid{
+    border: solid 2.5px green;
+}
+.Name:invalid{
+    border: solid 2.5px red;
+}
+.confit:valid{
+    border: solid 2.5px green;
+}
+.confit:invalid{
+    border: solid 2.5px red;
+}
+.password:valid{
+    border: solid 2.5px green;
+}
+.password:invalid{
+    border: solid 2.5px red;
+}
