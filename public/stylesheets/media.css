@@ -1,6 +1,10 @@
-@media screen and (min-width: 1200px) and (max-width: 1920px){
-    .img{
-        min-width: 1200px;
-        width: 100%;
-    }
+@media ( min-width: 1920px ) ,( max-width:1025px ){
+    body{
+    background: red;
+}
+}
+@media (min-width:1024px),(max-width:768.02px){
+    body{
+    background: green;
+}
 }
