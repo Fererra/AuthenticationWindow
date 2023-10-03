@@ -1,15 +1,18 @@
+@import url('media.css');
 body{
-    color: aqua;
-    background: url("https://kartinkin.net/pics/uploads/posts/2022-08/1659356807_39-kartinkin-net-p-zoopark-art-oboi-45.jpg");
-    background-size: 1920px 1000px;
     
+}
+img{
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 h1:first-child{
     color: black;
 }
 .registre {
     width: 400px;
-    height: 300px;
+    height: 575px;
     margin: 0;
     background: #dcdcdc;
     position: absolute;
@@ -21,6 +24,8 @@ h1:first-child{
     justify-content: center;
     align-items: center;
     border: solid 4px black;
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
 }
 .block-parents{
     display: flex;
@@ -30,17 +35,25 @@ h1:first-child{
 }
 .email{
     flex-grow: 1;
+    padding: 10px;
 }
 .Name{
+    padding: 10px;
     flex-grow: 1;
 
 }
 .password{
+    padding: 10px;
     flex-grow: 1;
 }
 .sumbit{
+    padding: 10px;
     flex-grow: 1;
     
+}
+.confit{
+    flex-grow: 1;
+    padding: 10px;
 }
 .email:valid{
     border: solid 2.5px green;
