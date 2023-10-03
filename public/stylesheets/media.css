@@ -1,9 +1,9 @@
-@media ( min-width: 1920px ) ,( max-width:1025px ){
+@media ( min-width: 1024.02px ) and ( max-width:1920px ){
     body{
     background: red;
 }
 }
-@media (min-width:1024px),(max-width:768.02px){
+@media (max-width:1023.98px ) and (min-width:768.02px) {
     body{
     background: green;
 }
