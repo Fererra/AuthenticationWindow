@@ -5,6 +5,8 @@ const bodyParser = require('body-parser');
 // var logger = require('winston');
 
 var indexRouter = require('./routes/index');
+var signUpRouter = require('./routes/sign-up');
+var loginRouter = require('./routes/login');
 
 var app = express();
 
@@ -19,6 +21,8 @@ app.use(express.static(__dirname + '/public'));
 app.use(express.static(__dirname + '/views'));
 
 app.use('/', indexRouter);
+app.use('/signup', signUpRouter);
+app.use('/login', loginRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
