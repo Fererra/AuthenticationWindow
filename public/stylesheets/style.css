@@ -11,7 +11,7 @@ h1:first-child{
 }
 .registre {
     width: 400px;
-    height: 575px;
+    height: 505px;
     margin: 0;
     background: #dcdcdc;
     position: absolute;
@@ -22,8 +22,9 @@ h1:first-child{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid 4px black;
-    font-size: 36px;
+    border: solid 3px black;
+    font-size: 30px;
+    text-shadow: 4px 4px 6px  #49423d;
     font-family: 'Times New Roman', Times, serif;
 }
 .block-parents{
@@ -35,45 +36,41 @@ h1:first-child{
 .email{
     flex-grow: 1;
     padding: 10px;
+    border: solid black 0.25px;
+    border-radius: 7px;
 }
 .Name{
     padding: 10px;
     flex-grow: 1;
-
+    border: solid black 0.25px;
+    border-radius: 7px;
 }
 .password{
     padding: 10px;
     flex-grow: 1;
+    border: solid black 0.25px;
+    border-radius: 7px;
 }
 .sumbit{
     padding: 10px;
     flex-grow: 1;
-    
+    border: solid black 0.25px;
+    border-radius: 7px;
 }
 .confit{
     flex-grow: 1;
     padding: 10px;
-}
-.email:valid{
-    border: solid 2.5px green;
+    border: solid black 0.25px;
+    border-radius: 7px;
 }
 .email:invalid{
     border: solid 2.5px red;
 }
-.Name:valid{
-    border: solid 2.5px green;
-}
 .Name:invalid{
-    border: solid 2.5px red;
-}
-.confit:valid{
-    border: solid 2.5px green;
+    border: solid 2.5pxs red;
 }
 .confit:invalid{
     border: solid 2.5px red;
-}
-.password:valid{
-    border: solid 2.5px green;
 }
 .password:invalid{
     border: solid 2.5px red;
