@@ -26,6 +26,7 @@ h1:first-child{
     font-size: 30px;
     text-shadow: 4px 4px 6px  #49423d;
     font-family: 'Times New Roman', Times, serif;
+    border-radius: 15px;
 }
 .block-parents{
     display: flex;
@@ -36,31 +37,31 @@ h1:first-child{
 .email{
     flex-grow: 1;
     padding: 10px;
-    border: solid black 0.25px;
+    border: solid black 0.1px;
     border-radius: 7px;
 }
 .Name{
     padding: 10px;
     flex-grow: 1;
-    border: solid black 0.25px;
+    border: solid black 0.1px;
     border-radius: 7px;
 }
 .password{
     padding: 10px;
     flex-grow: 1;
-    border: solid black 0.25px;
+    border: solid black 0.1px;
     border-radius: 7px;
 }
 .sumbit{
     padding: 10px;
     flex-grow: 1;
-    border: solid black 0.25px;
+    border: solid black 0.1px;
     border-radius: 7px;
 }
 .confit{
     flex-grow: 1;
     padding: 10px;
-    border: solid black 0.25px;
+    border: solid black 0.1px;
     border-radius: 7px;
 }
 .email:invalid{
