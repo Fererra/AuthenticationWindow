@@ -1,10 +1,10 @@
 @media ( min-width: 1024.02px ) and ( max-width:1920px ){
     body{
-    background: red;
+    background: url("https://wallpapers.com/images/file/zoo-animals-grizzly-bears-2y26hsc3vz5zuzxo.jpg");
 }
 }
 @media (max-width:1023.98px ) and (min-width:768.02px) {
     body{
-    background: green;
+    background: url("https://img.goodfon.ru/original/1600x1200/7/90/tigr-vodopad-bereg.jpg");
 }
 }
