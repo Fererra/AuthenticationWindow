@@ -34,19 +34,19 @@ h1:first-child{
     justify-content: space-between;
     align-items:center;
 }
-.email{
+#email{
     flex-grow: 1;
     padding: 10px;
     border: solid black 0.1px;
     border-radius: 7px;
 }
-.Name{
+#name{
     padding: 10px;
     flex-grow: 1;
     border: solid black 0.1px;
     border-radius: 7px;
 }
-.password{
+#password{
     padding: 10px;
     flex-grow: 1;
     border: solid black 0.1px;
@@ -58,21 +58,21 @@ h1:first-child{
     border: solid black 0.1px;
     border-radius: 7px;
 }
-.confit{
+#confit{
     flex-grow: 1;
     padding: 10px;
     border: solid black 0.1px;
     border-radius: 7px;
 }
-.email:invalid{
+#email:invalid{
     border: solid 2.5px red;
 }
-.Name:invalid{
+#name:invalid{
     border: solid 2.5px red;
 }
-.confit:invalid{
+#confit:invalid{
     border: solid 2.5px red;
 }
-.password:invalid{
+#password:invalid{
     border: solid 2.5px red;
 }
