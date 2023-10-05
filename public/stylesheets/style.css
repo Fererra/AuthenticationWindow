@@ -1,0 +1,32 @@
+@import url("media.css");
+
+body{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    background: #42c097;
+}
+.block-parents-navig{
+    width: 100px;
+    min-width: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.navig{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    position: absolute;
+    left: 0;
+    top: 50px;
+}
+.information-window-animals{
+    background: #eef3d4;
+    max-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 130px;
+    left: 17.5%;
+    right: 17.5%;
+    border-radius: 12.5px 12.5px;
+}
