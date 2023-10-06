@@ -30,3 +30,23 @@ body{
     right: 17.5%;
     border-radius: 12.5px 12.5px;
 }
+#animal:hover{
+    color: whitesmoke;
+    background: #216951; 
+} 
+#buy-ticket:hover{
+    color: whitesmoke;
+    background: #216951; 
+} 
+#ticket-price:hover{
+    color: whitesmoke;
+    background: #216951; 
+} 
+#glava:hover{
+    color: whitesmoke;
+    background: #216951; 
+}
+#day-visit:hover{
+    color: whitesmoke;
+    background: #216951; 
+}
