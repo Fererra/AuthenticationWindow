@@ -1,6 +1,4 @@
 @import url('media.css');
-body{
-}
 img{
     position: absolute;
     left: 0;
@@ -57,6 +55,27 @@ h1:first-child{
     flex-grow: 1;
     border: solid black 0.1px;
     border-radius: 7px;
+}
+#email:hover{
+    box-shadow: 2px 2px 2px #646464;
+    border: solid 2.5px #49423d;
+}
+#name:hover{
+    box-shadow: 2px 2px 2px #646464;
+    border: solid 2.5px #49423d;
+}
+#password:hover{
+    box-shadow: 2px 2px 2px #646464;
+    border: solid 2.5px #49423d;
+}
+#confit:hover{
+    box-shadow: 2px 2px 2px #646464;
+    border: solid 2.5px #49423d;
+}
+.sumbit:hover{
+    background: #909090;
+    width: 75px;
+    box-shadow: 2px 2px 2px #646464;
 }
 #confit{
     flex-grow: 1;
