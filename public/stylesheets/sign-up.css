@@ -74,8 +74,8 @@ h1:first-child{
 }
 .sumbit:hover{
     background: #909090;
-    width: 75px;
-    box-shadow: 2px 2px 2px #646464;
+    width: 120px;
+    box-shadow: 2px 2px 2px #999999;
 }
 #confit{
     flex-grow: 1;
