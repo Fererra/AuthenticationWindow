@@ -1,52 +1,130 @@
-@import url("media.css");
+
 
 body{
     color: black;
     font-family: 'Times New Roman', Times, serif;
-    background: #42c097;
+    background: #ffb415;
 }
 .block-parents-navig{
-    width: 100px;
+    width: 200px;
     min-width: 100%;
-    position: absolute;
-    top:0;
-    left: 0;
 }
-.navig{
+img{
+    width: 100px;
+    height: 100px;
+}
+#block-navig{
+    position: absolute;
+    left: 0.1%;
+    right: 0.1%;
+    top: 200px;
     display: flex;
-    justify-content: space-between;
-    align-items:flex-end;
-    position: absolute;
-    left: 0;
-    top: 50px;
+    justify-content: space-around;
+    align-items:center;
+    align-content: stretch;
+    height: 75px;
 }
-.information-window-animals{
+.main-menu-block-parents{
     background: #eef3d4;
     max-width: 100%;
     min-height: 100%;
     position: absolute;
-    top: 130px;
-    left: 17.5%;
-    right: 17.5%;
+    top: 300px;
+    left: 0.5%;
+    right: 0.5%;
     border-radius: 12.5px 12.5px;
 }
+#animal{
+    text-decoration: none;
+    color: aliceblue;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+ul{
+    margin-left: 0;
+    padding-left: 0;
+    border: solid 3px #c47310;
+    height: 82.5px;
+    width: 355px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: 12.5px;
+    background: #c47310;
+    font-size: 36px;
+}
 #animal:hover{
-    color: whitesmoke;
-    background: #216951; 
+    background: #ff8100; 
+    border:solid 3px #fc4003;
+    box-shadow: 7px 7px 8px #ba5604;
+    text-shadow: 5px 5px 10px #4d4947;
+    width: 370px;
 } 
 #buy-ticket:hover{
-    color: whitesmoke;
-    background: #216951; 
+    background: #ff8100; 
+    border:solid 3px #fc4003;
+    box-shadow: 7px 7px 8px #ba5604;
+    text-shadow: 5px 5px 10px #4d4947;
+    width: 370px;
 } 
 #ticket-price:hover{
-    color: whitesmoke;
-    background: #216951; 
+    background: #ff8100; 
+    border:solid 3px #fc4003;
+    box-shadow: 7px 7px 8px #ba5604;
+    text-shadow: 5px 5px 10px #4d4947;
+    width: 370px;
 } 
 #glava:hover{
-    color: whitesmoke;
-    background: #216951; 
+    background: #ff8100; 
+    border:solid 3px #fc4003;
+    box-shadow: 7px 7px 8px #ba5604;
+    text-shadow: 5px 5px 10px #4d4947;
+    width: 370px;
 }
 #day-visit:hover{
-    color: whitesmoke;
-    background: #216951; 
+    background: #ff8100; 
+    border:solid 3px #fc4003;
+    box-shadow: 7px 7px 8px #ba5604;
+    text-shadow: 5px 5px 10px #4d4947;
+    width: 370px;
+}
+#menu:hover{
+    background: #ff8100; 
+    border:solid 3px #fc4003;
+    box-shadow: 7px 7px 8px #ba5604;
+    text-shadow: 5px 5px 10px #4d4947;
+    width: 370px;
+}
+#animal:active{
+    color: black;
+}
+#buy-ticket:active{
+    color: black;
+}
+#ticket-price:active{
+    color: black;
+}
+#glava:active{
+    color: black;
+}
+#day-visit:active{
+    color: black;
+}
+ul.test{
+    width: 75px;
+    height: 345px;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.logotip{
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    align-items:center;
 }
